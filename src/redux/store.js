@@ -1,4 +1,4 @@
-import {createStore, applyMddleware} from 'redux';
+import {createStore, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 import roodReducer from './root-reducer';
 
